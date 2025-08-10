@@ -1,0 +1,56 @@
+:root {
+  --main-color: #37517e;
+}
+.text-blue {
+  color: var(--main-color) !important;
+}
+.hero {
+  background-color: #37517e;
+}
+.navbar a {
+  color: white !important;
+}
+.dropdown-menu a {
+  color: black !important;
+}
+.paint {
+  animation: move 2s linear infinite alternate;
+}
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.gray-line {
+  position: relative;
+  width: 20%;
+  height: 2px;
+  background-color: lightgray;
+  margin: 10px auto;
+}
+.blue-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 3px;
+  background-color: aqua;
+}
+.alarm {
+  display: flex;
+  justify-content: space-between;
+  color: #37517e;
+  margin: 1rem 0 0 0;
+}
+.progressbar {
+  border-radius: 0;
+  background-color: gray !important;
+}
+.progress-bar {
+  background-color: #274571 !important;
+  border-radius: 0 !important;
+}
