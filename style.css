@@ -4,6 +4,7 @@
 .text-blue {
   color: var(--main-color) !important;
 }
+
 .hero {
   background-color: #37517e;
 }
@@ -41,6 +42,7 @@
   background-color: aqua;
 }
 .alarm {
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
   color: #37517e;
@@ -53,4 +55,27 @@
 .progress-bar {
   background-color: #274571 !important;
   border-radius: 0 !important;
+}
+
+.workcard {
+  overflow: hidden;
+}
+.workcard img {
+  transition: all 0.4s;
+}
+.work-card:hover img {
+  transform: scaleY(1.1);
+}
+
+.content {
+  z-index: 111;
+}
+.work-card:hover .content {
+  transform: translateY(-20px);
+}
+.work-card .content {
+  transition: all 0.4s;
+}
+.apple {
+  overflow: hidden;
 }
