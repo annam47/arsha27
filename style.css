@@ -78,7 +78,7 @@
 }
 .apple {
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 10%;
 }
 .anam:hover {
   transform: translateY(-10px);
