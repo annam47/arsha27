@@ -84,7 +84,7 @@ h4 {
   transition: all 0.4s;
 }
 .anam {
-  margin-top: 10px;
+  margin-top: 10%;
 }
 .anam:hover {
   transform: translateY(-10px);
@@ -125,4 +125,43 @@ h4 {
     ),
     url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp)
       fixed;
+}
+.overlay {
+  bottom: -90px;
+  transition: all 0.3s;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+.image-animation {
+  overflow: hidden;
+}
+.image-animation:hover .overlay {
+  bottom: 0px;
+}
+.unzola {
+  background-color: rgb(255, 255, 255, 0.8);
+  transition: all 0.3s;
+  bottom: -90px;
+}
+.image-animation2 {
+  overflow: hidden;
+}
+.image-animation2:hover .unzola {
+  bottom: 0;
+}
+.icon-bars i {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.icon-bars i:hover {
+  background-color: var(--bs-info);
+  color: white;
+}
+.maha {
+  margin-top: 50px;
 }
