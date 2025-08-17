@@ -130,7 +130,7 @@ h4 {
       fixed;
 }
 .overlay {
-  bottom: -90px;
+  bottom: -120px;
   transition: all 0.3s;
   background-color: rgb(255, 255, 255, 0.8);
 }
