@@ -203,3 +203,6 @@ h4 {
 .blog-card .content4 {
   transition: all 0.5s;
 }
+.html {
+  scroll-behavior: smooth;
+}
